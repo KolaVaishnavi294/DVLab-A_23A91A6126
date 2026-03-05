@@ -49,4 +49,4 @@ ggplot(hair_eye_df,aes(x=Hair,y=Freq,fill=Eye))+
   theme_minimal()
 
 #advanced mosaic with residual shading
-mosaic(~hair+Eye+Sex,data=hair_eye_df,shade=TRUE,legend=TRUE)
+mosaic(~Hair+Eye+Sex,data=hair_eye_df,shade=TRUE,legend=TRUE)
